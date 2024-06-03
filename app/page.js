@@ -54,6 +54,7 @@ export default function Home() {
           {DUMMY_DATA.map((expense) => {
             return (
               <ExpenseCategoryItem
+                key={expense.id} // Add the key prop here
                 color={expense.color}
                 title={expense.title}
                 total={expense.total}
@@ -62,6 +63,6 @@ export default function Home() {
           })}
         </div>
       </section>
-      </main>
+    </main>
   );
 }
