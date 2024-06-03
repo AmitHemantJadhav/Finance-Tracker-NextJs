@@ -14,6 +14,8 @@ export const Navigation = () => {
               src="https://thispersondoesnotexist.com"
               className="object-cover w-full h-full"
               alt="Profile image"
+              width={40}
+              height={40}
             />
           </div>
 
