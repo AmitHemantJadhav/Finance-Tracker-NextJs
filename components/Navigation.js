@@ -1,5 +1,7 @@
-import React from 'react'
+import React from "react";
 import { ImStatsBars } from "react-icons/im";
+import Image from "next/image";
+
 export const Navigation = () => {
   return (
     <header className="container max-w-2xl px-6 py-6 mx-auto">
@@ -8,9 +10,9 @@ export const Navigation = () => {
         <div className="flex items-center gap-2">
           {/* img */}
           <div className="h-[40px] w-[40px] rounded-full overflow-hidden">
-            <img
-              className="object-cover w-full h-full"
+            <Image
               src="https://thispersondoesnotexist.com"
+              className="object-cover w-full h-full"
               alt="Profile image"
             />
           </div>
@@ -30,5 +32,5 @@ export const Navigation = () => {
         </nav>
       </div>
     </header>
-  )
-}
+  );
+};
