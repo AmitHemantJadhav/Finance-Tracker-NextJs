@@ -6,7 +6,7 @@ function Modal({ show, onClose, children }) {
       }}
       className="absolute top-0 left-0 w-full h-full z-10 transition-all duration-500"
     >
-      <div className="container mx-auto max-w-xl h-[80vh] rounded-3xl bg-[#1e293bdc] py-6 px-4">
+      <div className="container mt-6 mx-auto max-w-xl h-full rounded-3xl bg-[#1e293bf0] py-6 px-4">
         <button
           onClick={() => {
             onClose(false);
