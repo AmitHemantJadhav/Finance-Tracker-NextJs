@@ -7,7 +7,7 @@ export const Navigation = () => {
     <header className="container max-w-2xl px-6 py-6 mx-auto">
       <div className="flex items-center justify-between">
         {/* User information */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-4">
           {/* img */}
           <div className="h-[40px] w-[40px] rounded-full overflow-hidden">
             <Image
